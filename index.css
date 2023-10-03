@@ -1,0 +1,81 @@
+body{
+    background-color: #DAF0FF;
+    ;
+}
+.main-div{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 39px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(13, 62, 208, 0.37);
+    width: 375px;
+    height: 812px;
+    position: relative;
+    left: 40%;
+    top: 50%;
+}
+.second-div{
+    width: 375px;
+    height: 51rem;
+    top: 182px;
+    left: 611px;
+    border-radius: 39px;
+    background: #F7F8FB;
+    border-radius: 39px;
+    /* transform: translate(0.3%,0.5%); */
+}
+.keyboard{
+    transform: translate(8%,30%);
+}
+.keyboard button{
+    width:  62px;
+    color: #38B9FF;
+    font-size: large;
+height:  60px;
+top: 546px;
+left: 116px;
+padding: 6px, 4px, 6px, 4px;
+border-radius: 16px;
+border: 1px;
+margin-left: 10px;
+margin-bottom: 10px;
+background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+
+
+}
+#result{
+    width: 10em;
+    height: 11rem;
+    border: none;
+    font-size: 34px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400px;
+    line-height: 36px;
+    transform: translate(0,50%);
+    background: #F7F8FB;
+}
+#o{
+   width: 8em;
+}
+#equal{
+    height: 6rem;
+    color: white;
+    transform: translate(0,-25%);
+    background: #19ACFF;
+    box-shadow: -9px 13px 23px 0px #00A3FFA6;
+    box-shadow: -3px 4px 11px 0px #B0DFFF inset;
+
+
+}
+#plus{
+    height:6rem ;
+    background: #ADE2FF;
+
+}
+#sub,#mult,#div{
+    background: #ADE2FF;
+}
+#ac,#del{
+    color: grey;
+}
